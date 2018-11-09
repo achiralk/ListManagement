@@ -5,3 +5,22 @@
     background-color: #d17965;
     color: white;
 }
+
+ #rcornerl {
+    border-radius: 15px 0px 0px 0px;
+	border-color:#FFF;
+	border-top-color:2px solid #FFF;
+ }
+ 
+ #rcornerr {
+    border-radius: 0px 15px 0px 0px;
+	border-color:#FFF;
+	border-top-color:2px solid #FFF;
+ }
+ 
+  #rcornerlf {
+    border-radius: 15px 15px 0px 0px;
+	border-color:#FFF;
+	border-top-color:2px solid #FFF;
+	text-align:center;
+ }

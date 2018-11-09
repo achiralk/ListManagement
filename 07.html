@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
- 
+  
 
 </head>
 
@@ -41,46 +41,66 @@
 
 <div align="center" class="container">
 
-	<h3><span class="label label-default">Fornitori >> Lista Fornitori</span></h3>
+	<h3><span class="label label-default">Fornitori >> Lista Fornitori >> Lista Articoli Fornitore</span></h3>
 
   	<form class="form-inline" action="" style="padding-top:20px; padding-bottom:20px">
   		<div class="form-group">
         	<label for="search">Search:</label>
       		<input type="text" class="form-control" id="search" placeholder="Search" name="search">            
     	</div>
-        <div class="form-group">
-        	<button type="submit" class="btn btn-default">+ nuovo forn</button>
-        </div>
      </form>
+     
+
+     <img align="center" src="images/FornitoreColombo.jpg" class="img-responsive img-rounded" alt="Cinque Terre" style="width:386px;height:auto;">
+
      
     <div class="table-responsive">
     <table class="table table-bordered">
-    <thead>
-      <tr>
-        <th id="rcornerl">column</th>
-        <th>column</th>
-        <th>column</th>
-        <th>column</th>
-        <th>column</th>
-        <th>column</th>
-        <th>column</th>
-        <th>column</th>
-        <th id="rcornerr">column</th>
+    <thead id="rounded">
+      <tr id="rounded">
+        <th id="rcornerl">Tipologie</th>
+        <th>Descrizione</th>
+        <th>Inizio</th>
+        <th>Fine</th>
+        <th>Listino</th>
+        <th>Sconto</th>
+        <th>&nbsp;  </th>
+        <th>Stato</th>
+        <th id="rcornerr">Azioni</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>aaaaaaaaa</td>
-        <td align="center"><img src="images/01.jpg" class="img-responsive img-rounded" alt="Cinque Terre" style="width:142px;height:auto;"></td>
         <td>aaaaaaaaa</td>
         <td>aaaaaaaaa</td>
         <td>aaaaaaaaa</td>
         <td>aaaaaaaaa</td>
         <td>aaaaaaaaa</td>
         <td>aaaaaaaaa</td>
-        <td><button type="button" class="btn">Button</button></td>
+        <td>aaaaaaaaa</td>
+        <td><button type="button" class="btn">Azioni Articolo</button></td>
+      </tr>
+      
+      <tr>
+        <td>aaaaaaaaa</td>
+        <td>aaaaaaaaa</td>
+        <td>aaaaaaaaa</td>
+        <td>aaaaaaaaa</td>
+        <td>aaaaaaaaa</td>
+        <td>aaaaaaaaa</td>
+        <td>aaaaaaaaa</td>
+        <td>aaaaaaaaa</td>
+        <td><button type="button" class="btn">Azioni Articolo</button>  </br>
+             
+             	<span class="fa fa-file-text"> &nbsp;&nbsp; Dettagli </span>  </br>
+				<span class="glyphicon glyphicon-edit"> Modifica </span>  </br>
+				<span class="glyphicon glyphicon-retweet"> Traduci </span>  </br>
+				<span class="glyphicon glyphicon-eye-open"> Mostra/Nascondi </span>  </br>
+				<span class="glyphicon glyphicon-globe"> Pubblica </span>
       </tr>
     </tbody>
+        </td>
   </table>
 </div>
      
