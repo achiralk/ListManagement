@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Evento</title>
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/customd.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script>
+        $(function () {
+            $("#slider").slider();
+        });
+    </script>
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse" style="border-radius:0px">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">System Name</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="#">Home</a>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">Page 1-1</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 1-2</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 1-3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Page 2</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#">
+                        <span class="glyphicon glyphicon-user"></span> Sign Up</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="glyphicon glyphicon-log-in"></span> Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div align="center" class="container">
+        <h4>
+            <span class="label label-default">Tratte >> Lista Tratte</span>
+        </h4>
+        <h3>
+            <span class="label label-default">Evento 1</span>
+        </h3>
+        <br>
+
+        <br>
+        <!--Slider Comes Here-->
+
+        <div>
+            <table class="table table-responsive" style="max-width:40%;">
+                <thead>
+                    <tr>
+                        <td style="vertical-align:middle; text-align: right">Search</td>
+                        <td><input type="text" class="form-control" id="txtSearch"></td>
+                        <td style="vertical-align:middle; text-align: right"><button type="button" class="btn">+ Nuova
+                                tratta</button></td>
+                        <td></td>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <div class="table-responsive">
+            <table class="contact-table table table-curved table-responsive">
+                <thead>
+                    <tr>
+                        <th id="rcornerl">Nome </th>
+                        <th>Fornitore</th>
+                        <th>Descrizione</th>
+                        <th>Partenza</th>
+                        <th>Amivo</th>
+                        <th>Orario Partenza/ Arrivo</th>
+                        <th>Referente</th>
+                        <th>Stato</th>
+                        <th id="rcornerr">Azioni</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Loredana</td>
+                        <td>Colombo</td>
+                        <td>Loredana</td>
+                        <td>Loredana</td>
+                        <td>Colombo</td>
+                        <td>Loredana</td>
+                        <td>60</td>
+                        <td>50</td>
+                        <td><button type="button" class="btn">Azioni Tratta</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>Loredana</td>
+                        <td>Colombo</td>
+                        <td>Loredana</td>
+                        <td>Loredana</td>
+                        <td>Colombo</td>
+                        <td>Loredana</td>
+                        <td>60</td>
+                        <td>50</td>
+                        <td><button type="button" class="btn">Azioni Tratta</button></br>
+                            <span class="glyphicon glyphicon-copy">Dettagi</span> </br>
+                            <span class="glyphicon glyphicon-edit"> Modifica </span> </br>
+                            <span class="glyphicon glyphicon-transfer"> Traduci </span> </br>
+                            <span class="glyphicon glyphicon-eye-open"> Mostra / Nascondi </span> </br>
+                            <span class="glyphicon glyphicon-user"> Partecipanti </span> </br>
+                            <span class="glyphicon glyphicon-globe"> Pubblica </span> </td>
+                    </tr>
+                </tbody>
+                </td>
+            </table>
+        </div>
+    </div>
+</body>
+
+s
